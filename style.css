@@ -1,0 +1,231 @@
+
+
+#navbar{
+    display:flex;
+    position:relative;
+    align-items: center;
+    background-color:black; 
+   
+}
+#navbar logo{
+    
+    margin:20px 40px;
+    
+    
+}
+.logo{
+    color: aliceblue;
+    margin-left: 20px;
+    
+}
+
+.logo img{
+    padding-top:15px ;
+    height:40px;
+}
+#navbar ul{
+    display:flex;
+    list-style: none;
+}
+#navbar ul li a{
+    display:block;
+    padding:10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white;
+}
+#navbar::before{
+    content:" ";
+    background-color:black; 
+    color: rgb(246, 239, 239);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.4;
+    
+}
+#navbar ul li a:hover{
+    border-radius: 5px;
+    background-color: rgb(97, 99, 85);
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding:6px 200px;
+    position:relative;
+    color : rgb(1, 1, 1);
+    
+    
+}
+#container::before{
+    content:" ";
+    background: url(../img/b1.jpg) no-repeat center center/cover;
+    background-repeat: no-repeat;
+    color: rgb(15, 14, 14);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.89;
+}
+.h-primary{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 2.6rem;
+    align-items: center;
+    justify-content: center;
+}
+#container p{
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.btn{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(135, 139, 143);
+    box-shadow: 5px 5px 2px rgb(60, 62, 63);
+    padding:5px 10px;
+
+}
+.heading{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#section{
+    margin:4px 20px;
+    display:flex;
+    
+    padding: 20px 20px;
+}
+.box{
+    margin:3px 20px;
+    height: 480px;
+    width: 500px;
+    border:2px solid black;
+    border-radius: 10px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px rgb(60, 62, 63);
+} 
+.box img{
+    height: 200px;
+    /* border: 2px solid black;  */
+}  
+.box p{
+    font-family: 'Baloo Thambi 2', cursive;
+    align-items: center;
+    justify-content: center;
+}
+.box::before{
+    content:" ";
+    background-color: rgb(255, 255, 255);
+    
+    color: rgb(14, 13, 13);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.89;
+}
+#contact{
+    
+    position: relative;
+    
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 34px;
+    margin: 20px 20px;
+}
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:0.5rem 10px;
+    border-radius: 8px;
+    
+    
+
+}
+.contact-box form{
+    width: 40%;
+    
+}
+.contact-box label{
+    
+    font-size: 1rem;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.formgroup{
+    padding: 10px 20px;
+}
+
+.button{
+    margin:3px 250px;
+    
+}
+#contact::before{
+    content:" ";
+    background-color: azure;
+    color: rgb(17, 16, 16);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.89;
+    
+
+}
+#footer{
+    position:relative;
+    color: rgb(255, 255, 255);
+    
+
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add p{
+    font-family: 'Baloo Thambi 2', cursive;
+    margin-left: 250px;
+    margin-right: 250px;;
+}
+
+#footer::before{
+    content:" ";
+    background-color: rgb(12, 13, 13);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.89;
+
+}
+.media{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+
+}
+.media img{
+    height:30px;
+    padding: 3px 6px;
+    
+}
